@@ -1,0 +1,32 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" Version="1.0.0" Publisher="Dave Robinson" />
+    <DisplayName>Mermaid Diagram Extension</DisplayName>
+    <Description>Converts C# source code into Mermaid flow and sequence diagrams. Generate diagrams from selected code, methods, or classes using Roslyn and render with Mermaid.js.</Description>
+    <Locale>1033</Locale>
+    <Tags>mermaid, diagram, flow, sequence, C#, Roslyn, visualization</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community.2022" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Professional.2022" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise.2022" Version="[17.0,19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.7.2,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.17.0" DisplayName="Visual Studio MPF 17.0" Version="[17.0,18.0)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="MermaidDiagramExtension.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="MermaidDiagramExtension.dll" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.Compiler" Version="[17.0,)" />
+  </Prerequisites>
+</PackageManifest>

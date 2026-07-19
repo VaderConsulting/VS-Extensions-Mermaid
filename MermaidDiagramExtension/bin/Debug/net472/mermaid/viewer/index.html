@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mermaid Diagram</title>
+  <script src="../mermaid.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #fff; }
+    #diagram { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; overflow: auto; }
+    #diagram svg { max-width: none; }
+  </style>
+</head>
+<body>
+  <div id="diagram"></div>
+  <script>
+    (function() {
+      var container = document.getElementById('diagram');
+      var currentId = null;
+      var zoom = 1;
+
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'default',
+        flowchart: { useMaxWidth: false },
+        sequence: { useMaxWidth: false }
+      });
+
+      window.renderMermaid = function(mermaidCode, diagramType) {
+        if (!mermaidCode || !mermaidCode.trim()) {
+          container.innerHTML = '<p>No diagram content.</p>';
+          return;
+        }
+        container.innerHTML = '';
+        var id = 'mermaid-' + Date.now();
+        currentId = id;
+        var div = document.createElement('div');
+        div.id = id;
+        div.className = 'mermaid';
+        div.textContent = mermaidCode;
+        container.appendChild(div);
+        mermaid.run({ nodes: [div] }).catch(function(err) {
+          container.innerHTML = '<p style="color:red">Render error: ' + (err.message || err) + '</p>';
+        });
+      };
+
+      window.fitDiagram = function() {
+        zoom = 1;
+        container.style.transform = 'scale(1)';
+        container.style.transformOrigin = 'center center';
+      };
+
+      window.getSvgData = function() {
+        var svg = container.querySelector('svg');
+        if (!svg) return null;
+        return svg.outerHTML;
+      };
+
+      window.getPngDataUrl = function() {
+        var svg = container.querySelector('svg');
+        if (!svg) return null;
+        var xml = new XMLSerializer().serializeToString(svg);
+        var svg64 = btoa(unescape(encodeURIComponent(xml)));
+        return 'data:image/svg+xml;base64,' + svg64;
+      };
+
+      window.getPngDataUrlAsCanvas = function(cb) {
+        var svg = container.querySelector('svg');
+        if (!svg) { if (cb) cb(null); return; }
+        var img = new Image();
+        var xml = new XMLSerializer().serializeToString(svg);
+        var svg64 = btoa(unescape(encodeURIComponent(xml)));
+        var url = 'data:image/svg+xml;base64,' + svg64;
+        img.onload = function() {
+          var c = document.createElement('canvas');
+          c.width = img.width;
+          c.height = img.height;
+          var ctx = c.getContext('2d');
+          ctx.fillStyle = 'white';
+          ctx.fillRect(0, 0, c.width, c.height);
+          ctx.drawImage(img, 0, 0);
+          if (cb) cb(c.toDataURL('image/png'));
+        };
+        img.onerror = function() { if (cb) cb(null); };
+        img.src = url;
+      };
+
+      window.getPngDataUrlAsync = function() {
+        return new Promise(function(resolve) { window.getPngDataUrlAsCanvas(resolve); });
+      };
+    })();
+  </script>
+</body>
+</html>

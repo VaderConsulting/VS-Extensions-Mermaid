@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWpf>true</UseWpf>
+    <RootNamespace>MermaidDiagramExtension</RootNamespace>
+    <AssemblyName>MermaidDiagramExtension</AssemblyName>
+    <GeneratePkgDefFile>true</GeneratePkgDefFile>
+    <IncludeAssemblyInVsixContainer>true</IncludeAssemblyInVsixContainer>
+    <IncludeContentInVsixContainer>true</IncludeContentInVsixContainer>
+    <ContentTargetFolders>Content</ContentTargetFolders>
+    <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>true</CopyOutputSymbolsToOutputDirectory>
+    <VsixId>a1b2c3d4-e5f6-7890-abcd-ef1234567890</VsixId>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(DevEnvDir)devenv.exe</StartProgram>
+    <StartArguments>/rootSuffix Exp /log</StartArguments>
+    <DeployExtension>false</DeployExtension>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VsSDKInstall)' != ''">
+    <CustomAfterMicrosoftCSharpTargets>$(VsSDKInstall)\Microsoft.VsSDK.targets</CustomAfterMicrosoftCSharpTargets>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.8.3702" />
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.10.1121" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2651.64" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSCTCompile Include="MermaidDiagramCommands.vsct">
+      <ResourceName>Menus.ctmenu</ResourceName>
+    </VSCTCompile>
+    <Content Include="mermaid\**\*">
+      <Link>mermaid\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVsix>true</IncludeInVsix>
+      <VsixSubPath>mermaid\%(RecursiveDir)%(Filename)%(Extension)</VsixSubPath>
+    </Content>
+  </ItemGroup>
+</Project>

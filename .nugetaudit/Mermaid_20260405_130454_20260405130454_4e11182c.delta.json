@@ -1,0 +1,865 @@
+{
+  "CurrentSnapshotId": "20260405130454_4e11182c",
+  "PreviousSnapshotId": "20260405042212_e1c4b59c",
+  "IsChanged": true,
+  "ComparisonNote": null,
+  "Changes": [
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.CSHARP",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "Microsoft.CSharp",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.7.0",
+      "CurrentResolvedVersion": "4.7.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.Telemetry"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.Telemetry"
+      ],
+      "PreviousDependencyPath": [
+        "Microsoft.CSharp",
+        "Microsoft.VisualStudio.Telemetry",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "Microsoft.CSharp",
+        "Microsoft.VisualStudio.Telemetry",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.VISUALSTUDIO.REMOTECONTROL",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "Microsoft.VisualStudio.RemoteControl",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "16.3.52",
+      "CurrentResolvedVersion": "16.3.52",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Telemetry",
+        "Microsoft.VisualStudio.Utilities"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Telemetry",
+        "Microsoft.VisualStudio.Utilities"
+      ],
+      "PreviousDependencyPath": [
+        "Microsoft.VisualStudio.RemoteControl",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "Microsoft.VisualStudio.RemoteControl",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "16.3.52",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "16.3.52",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.VISUALSTUDIO.TASKRUNNEREXPLORER.14.0",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "Microsoft.VisualStudio.TaskRunnerExplorer.14.0",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "14.0.0",
+      "CurrentResolvedVersion": "14.0.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousDependencyPath": [
+        "Microsoft.VisualStudio.TaskRunnerExplorer.14.0",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "Microsoft.VisualStudio.TaskRunnerExplorer.14.0",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "14.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "14.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.VISUALSTUDIO.WEB.BROWSERLINK.12.0",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "12.0.0",
+      "CurrentResolvedVersion": "12.0.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousDependencyPath": [
+        "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "12.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "12.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.WIN32.REGISTRY",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "Microsoft.Win32.Registry",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "5.0.0",
+      "CurrentResolvedVersion": "5.0.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.CoreUtility",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Language",
+        "Microsoft.VisualStudio.Language.Intellisense",
+        "Microsoft.VisualStudio.Language.NavigateTo.Interfaces",
+        "Microsoft.VisualStudio.Language.StandardClassification",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Text.Data",
+        "Microsoft.VisualStudio.Text.Logic",
+        "Microsoft.VisualStudio.Text.UI",
+        "Microsoft.VisualStudio.Text.UI.Wpf",
+        "Microsoft.VisualStudio.Threading",
+        "Microsoft.VisualStudio.Utilities"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.CoreUtility",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Language",
+        "Microsoft.VisualStudio.Language.Intellisense",
+        "Microsoft.VisualStudio.Language.NavigateTo.Interfaces",
+        "Microsoft.VisualStudio.Language.StandardClassification",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Text.Data",
+        "Microsoft.VisualStudio.Text.Logic",
+        "Microsoft.VisualStudio.Text.UI",
+        "Microsoft.VisualStudio.Text.UI.Wpf",
+        "Microsoft.VisualStudio.Threading",
+        "Microsoft.VisualStudio.Utilities"
+      ],
+      "PreviousDependencyPath": [
+        "Microsoft.Win32.Registry",
+        "Microsoft.VisualStudio.CoreUtility",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "Microsoft.Win32.Registry",
+        "Microsoft.VisualStudio.CoreUtility",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.REFLECTION.EMIT",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "System.Reflection.Emit",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.7.0",
+      "CurrentResolvedVersion": "4.7.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "MessagePack"
+      ],
+      "CurrentDependencyParents": [
+        "MessagePack"
+      ],
+      "PreviousDependencyPath": [
+        "System.Reflection.Emit",
+        "MessagePack",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "System.Reflection.Emit",
+        "MessagePack",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.REFLECTION.EMIT.LIGHTWEIGHT",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "System.Reflection.Emit.Lightweight",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.7.0",
+      "CurrentResolvedVersion": "4.7.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "MessagePack"
+      ],
+      "CurrentDependencyParents": [
+        "MessagePack"
+      ],
+      "PreviousDependencyPath": [
+        "System.Reflection.Emit.Lightweight",
+        "MessagePack",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "System.Reflection.Emit.Lightweight",
+        "MessagePack",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAID.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/VS EXTENSIONS/MERMAID/MERMAIDDIAGRAMEXTENSION/MERMAIDDIAGRAMEXTENSION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.SECURITY.PRINCIPAL.WINDOWS",
+      "ProjectName": "MermaidDiagramExtension",
+      "PackageId": "System.Security.Principal.Windows",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "5.0.0",
+      "CurrentResolvedVersion": "5.0.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Utilities",
+        "Microsoft.Win32.Registry",
+        "System.Security.AccessControl",
+        "System.Threading.AccessControl"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Package.LanguageService.15.0",
+        "Microsoft.VisualStudio.SDK",
+        "Microsoft.VisualStudio.Shell.15.0",
+        "Microsoft.VisualStudio.Shell.Design",
+        "Microsoft.VisualStudio.Shell.Framework",
+        "Microsoft.VisualStudio.Utilities",
+        "Microsoft.Win32.Registry",
+        "System.Security.AccessControl",
+        "System.Threading.AccessControl"
+      ],
+      "PreviousDependencyPath": [
+        "System.Security.Principal.Windows",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "CurrentDependencyPath": [
+        "System.Security.Principal.Windows",
+        "Microsoft.VisualStudio.Imaging",
+        "Microsoft.VisualStudio.Editor",
+        "Microsoft.VisualStudio.SDK"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    }
+  ],
+  "DependencyEdgeChanges": [],
+  "KnowledgeChanges": [
+    {
+      "PackageId": "Microsoft.CSharp",
+      "ResolvedVersion": "4.7.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "Microsoft.VisualStudio.RemoteControl",
+      "ResolvedVersion": "16.3.52",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "16.3.52",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "16.3.52",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "Microsoft.VisualStudio.TaskRunnerExplorer.14.0",
+      "ResolvedVersion": "14.0.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "14.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "14.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+      "ResolvedVersion": "12.0.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "12.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "12.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "Microsoft.Win32.Registry",
+      "ResolvedVersion": "5.0.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Reflection.Emit",
+      "ResolvedVersion": "4.7.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Reflection.Emit.Lightweight",
+      "ResolvedVersion": "4.7.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.7.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Security.Principal.Windows",
+      "ResolvedVersion": "5.0.0",
+      "DeterminedUtc": "2026-04-05T13:04:54.4263232+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "5.0.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    }
+  ]
+}
