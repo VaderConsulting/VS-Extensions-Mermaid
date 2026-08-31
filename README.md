@@ -2,6 +2,8 @@
 
 A Visual Studio 2022 VSIX extension that converts C# source code into **Mermaid** flow and sequence diagrams, rendered live in an embedded WebView2 tool window.
 
+**Source last updated:** 2026-03-08
+
 **Initiated:** 2026-03-08 · **Framework:** .NET Framework 4.7.2 · **Solution:** `MermaidDiagramExtension.sln`
 
 ---
