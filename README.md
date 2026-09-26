@@ -46,3 +46,25 @@ MermaidDiagramExtension/
 +-- DiagramControl.xaml              # WPF + WebView2 diagram panel
 +-- mermaid/viewer/index.html        # Embedded HTML viewer
 ```
+
+---
+
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `MermaidDiagramExtension` (`MermaidDiagramExtension/MermaidDiagramExtension.csproj`) | C# | VSIX package (.NET Framework 4.7.2) | Roslyn-based C# to Mermaid flow/sequence generators and WebView2 diagram tool window |
+
+NuGet: Microsoft.VisualStudio.SDK 17.8, Microsoft.CodeAnalysis.CSharp 4.11, Microsoft.Web.WebView2.
+
+## How to open
+
+Open `Mermaid.sln` (or `MermaidDiagramExtension/MermaidDiagramExtension.sln`) in Visual Studio 2022 with the Visual Studio extension development workload, restore NuGet packages, and press F5 to launch the experimental instance.
+
+## Attribution and provenance
+
+Working copy from my Development folder `VS Extensions/Mermaid`.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
