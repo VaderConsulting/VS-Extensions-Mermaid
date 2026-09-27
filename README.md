@@ -1,4 +1,4 @@
-﻿# Mermaid Diagram Extension for Visual Studio
+# Mermaid Diagram Extension for Visual Studio
 
 A Visual Studio 2022 VSIX extension that converts C# source code into **Mermaid** flow and sequence diagrams, rendered live in an embedded WebView2 tool window.
 
@@ -62,6 +62,8 @@ NuGet: Microsoft.VisualStudio.SDK 17.8, Microsoft.CodeAnalysis.CSharp 4.11, Micr
 Open `Mermaid.sln` (or `MermaidDiagramExtension/MermaidDiagramExtension.sln`) in Visual Studio 2022 with the Visual Studio extension development workload, restore NuGet packages, and press F5 to launch the experimental instance.
 
 ## Attribution and provenance
+
+Working copy from my Historical Dev folder.
 
 Working copy from my Development folder `VS Extensions/Mermaid`.
 
